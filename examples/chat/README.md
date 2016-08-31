@@ -13,6 +13,16 @@ $ npm install
 $ node .
 ```
 
+'error : This failure might be due to the use of legacy binary "node"'
+
+sol > 
+
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+reference : https://github.com/websockets/ws/issues/458
+
+
+
 And point your browser to `http://localhost:3000`. Optionally, specify
 a port by supplying the `PORT` env variable.
 
